@@ -7,7 +7,7 @@ body{
 
 .Heading{
   background-image: linear-gradient(to bottom, blue, violet, indigo,green, orange, red);
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent;
 }
 

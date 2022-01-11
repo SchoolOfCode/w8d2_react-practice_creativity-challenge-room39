@@ -1,5 +1,6 @@
 import { React, useState} from 'react'
 import './Counter.css' 
+import emojis from '../Emojis'
 
 function Counter(){
     const [count, setcount] = useState(0)
@@ -12,7 +13,7 @@ function deincrementCount(){
 return (
     <div className='Button'>
     <button className='incbutton' onClick={incrementCount}>Click me!</button>
-    <p>You've clicked {count} times!</p>
+    <p>You've clicked {count} times!"{emojis[Math.floor(Math.random() * 12)]}</p>
     <button className='deincbutton' onClick={deincrementCount}>Unclick me!</button>
     </div>
     )
