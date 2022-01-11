@@ -1,4 +1,5 @@
 import { React, useState} from 'react'
+import './Counter.css' 
 
 function Counter(){
     const [count, setcount] = useState(0)
@@ -9,10 +10,10 @@ function deincrementCount(){
     setcount (count -1 )
 }    
 return (
-    <div>
-    <button onClick={incrementCount}>Click me!</button>
+    <div className='Button'>
+    <button className='incbutton' onClick={incrementCount}>Click me!</button>
     <p>You've clicked {count} times!</p>
-    <button onClick={deincrementCount}>Unclick me!</button>
+    <button className='deincbutton' onClick={deincrementCount}>Unclick me!</button>
     </div>
     )
 

@@ -1,11 +1,17 @@
+body{
+  background-color: #61dafb;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Heading{
+  background-image: linear-gradient(to bottom, blue, violet, indigo,green, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +42,9 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
