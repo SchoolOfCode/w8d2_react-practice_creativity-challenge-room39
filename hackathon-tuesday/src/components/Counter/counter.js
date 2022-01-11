@@ -12,9 +12,9 @@ function deincrementCount(){
 }    
 return (
     <div className='Button'>
-    <button className='incbutton' onClick={incrementCount}>Click me!</button>
-    <p>You've clicked {count} times!"{emojis[Math.floor(Math.random() * 13)]}</p>
-    <button className='deincbutton' onClick={deincrementCount}>Unclick me!</button>
+    <button className='incbutton' onClick={incrementCount}>Purr Detected</button>
+    <p>Tony's purred {count} times!"{emojis[Math.floor(Math.random() * 13)]}</p>
+    <button className='deincbutton' onClick={deincrementCount}>Nope, it was a growl</button>
     </div>
     )
 
